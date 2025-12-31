@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahad Afzal Hussain | Portfolio</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Portfolio of Fahad Afzal Hussain, 2nd-year IT student mastering DSA in Java, frontend & backend development.">
+    <meta name="keywords" content="Fahad Afzal Hussain, Java, DSA, Web Development, React, Node.js, Portfolio">
+    <meta name="author" content="Fahad Afzal Hussain">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- External CSS / Fonts / AOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Fahad<span>.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#timeline">Journey</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="cp.html">Coding Profiles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav-container" id="mobile-nav-container">
+        <div class="mobile-nav">
+            <div class="mobile-nav-header">
+                <h3 class="mobile-nav-title">Menu</h3>
+                <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <ul class="mobile-nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i><span>Home</span></a></li>
+                <li><a href="#about"><i class="fas fa-user"></i><span>About</span></a></li>
+                <li><a href="#timeline"><i class="fas fa-route"></i><span>Journey</span></a></li>
+                <li><a href="#projects"><i class="fas fa-briefcase"></i><span>Projects</span></a></li>
+                <li><a href="cp.html"><i class="fas fa-terminal"></i><span>Coding Profiles</span></a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i><span>Contact</span></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-right">
+                <h1>Hi, I'm <span>Fahad Afzal Hussain</span></h1>
+                <p class="typing"><span id="typewriter"></span></p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    <a href="assets/resume.pdf" class="btn btn-outline" target="_blank">Download Resume</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                <path d="M400,300 C400,400 300,400 300,300 C300,200 400,200 400,300 Z" fill="#3b82f6" opacity="0.2" />
+                <path d="M500,200 C500,350 350,350 350,200 C350,50 500,50 500,200 Z" fill="#2563eb" opacity="0.2" />
+                <path d="M300,400 C300,500 200,500 200,400 C200,300 300,300 300,400 Z" fill="#1e40af" opacity="0.2" />
+                <circle cx="300" cy="300" r="200" fill="none" stroke="#2563eb" stroke-width="2" opacity="0.5" />
+            </svg>
+
+            <img src="assets/profile.JPG" alt="Fahad Afzal Hussain" class="profile-pic">
+
+            <div class="floating-icons">
+                <div class="floating-icon"><i class="fab fa-java"></i></div>
+                <div class="floating-icon"><i class="fab fa-react"></i></div>
+                <div class="floating-icon"><i class="fab fa-js"></i></div>
+                <div class="floating-icon"><i class="fas fa-code"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-left">
+                    <h2>Developer & Problem Solver</h2>
+                    <p>
+                        Hello! I'm <strong>Fahad Afzal Hussain</strong>, a passionate 2nd-year B.Tech (IT) student at
+                        Bharati Vidyapeeth's College of Engineering. I'm currently strengthening my
+                        <strong>Data Structures & Algorithms</strong> skills in <strong>Java</strong> while building
+                        real-world projects that challenge me to think critically and grow as a developer.
+                    </p>
+                    <p>
+                        I’m learning <strong>Python backend development</strong> using <strong>Django</strong> and
+                        <strong>FastAPI</strong>, and exploring the world of <strong>AI & Machine Learning</strong>.
+                        My goal is to build scalable systems that combine solid backend engineering with intelligent,
+                        data-driven insights.
+                    </p>
+
+                    <div class="skills">
+                        <div class="skill-category">
+                            <h3>Frontend</h3>
+                            <div class="skill-list">
+                                <span class="skill">HTML</span>
+                                <span class="skill">CSS</span>
+                                <span class="skill">JavaScript</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Version Control</h3>
+                            <div class="skill-list">
+                                <span class="skill">Git</span>
+                                <span class="skill">GitHub</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Backend</h3>
+                            <div class="skill-list">
+                                <span class="skill">Python</span>
+                                <span class="skill">Django</span>
+                                <span class="skill">FastAPI</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Programming & Problem Solving</h3>
+                            <div class="skill-list">
+                                <span class="skill">Java</span>
+                                <span class="skill">DSA</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="stats" data-aos="fade-up">
+                        <div class="stat">
+                            <div class="stat-number" data-target="3">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Journey</h2>
+
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Aug 2024</div>
+                        <h3>Joined BVCOE - IT Branch</h3>
+                        <p>Started my B.Tech journey in Information Technology at Bharati Vidyapeeth's College of
+                            Engineering.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024</div>
+                        <h3>Learned Frontend Development</h3>
+                        <p>Built a strong foundation in HTML, CSS, and JavaScript while exploring UI/UX design
+                            principles.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025</div>
+                        <h3>Built TaskMaster Pro</h3>
+                        <p>Developed a to-do web app to help users organize tasks and manage productivity efficiently.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025</div>
+                        <h3>Developed Anti-Doping System (SIH)</h3>
+                        <p>Collaborated with a team to create an anti-doping management solution for Smart India
+                            Hackathon.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025</div>
+                        <h3>Learning Java for DSA & Exploring Python</h3>
+                        <p>Currently strengthening problem-solving with Data Structures & Algorithms in Java while
+                            exploring
+                            Python</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025</div>
+                        <h3>Building PocketPal</h3>
+                        <p>Creating a personal finance management app — focused on scalability and backend-driven data
+                            handling.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2026 (Target)</div>
+                        <h3>Secure Internship</h3>
+                        <p>Aiming to secure a strong internship in software development or AI/ML by the end of 2nd year.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-img">
+                        <img src="assets/taskmaster.png" alt="TaskMaster">
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Master</h3>
+                        <p>
+                            TaskMaster Pro is a productivity dashboard I built to organize work and stay consistent.
+                            It helps plan weeks and break them into daily tasks automatically.
+                            You can set smart schedules that fit your routine.
+                            A Pomodoro-style focus timer tracks sessions and focus time.
+                            Detailed stats and streaks keep you motivated and on track.
+                        </p>
+
+
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/FahadAfzal5/To-do" class="btn btn-outline" target="_blank">View
+                                Code</a>
+                            <a href="https://fahadtodo.netlify.app/" class="btn" target="_blank">View Website</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-img">
+                        <img src="assets/antidoping.jpg" alt="Anti-Doping System">
+                    </div>
+                    <div class="project-info">
+                        <h3>Anti-Doping System</h3>
+                        <p>
+                            An interactive awareness and support platform designed to promote clean sports.
+                            It provides the latest anti-doping news, engaging animations for better understanding,
+                            interactive quizzes to test knowledge, and an AI-powered chatbot for instant guidance.
+                            Built for the Smart India Hackathon with a focus on education, accessibility, and athlete
+                            support.
+                        </p>
+
+
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/FahadAfzal5/Anti-Doping-/tree/main/SIH" class="btn btn-outline"
+                                target="_blank">View Code</a>
+                            <a href="https://fahadfirstsih.netlify.app/" class="btn" target="_blank">View Website</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-img">
+                        <img src="assets/pocketpal.png" alt="PocketPal">
+                    </div>
+                    <div class="project-info">
+                        <h3>PocketPal</h3>
+                        <p>
+                            A smart expense tracker and budgeting tool that helps users manage their money with ease.
+                            It offers wallet balance monitoring, quick expense logging, budget overviews with progress
+                            tracking,
+                            recent expense history, and expense splitting features — making personal finance simple and
+                            effective.
+                        </p>
+
+
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/FahadAfzal5/pocketpal" class="btn btn-outline"
+                                target="_blank">View Code</a>
+                            <a href="" class="btn" target="_blank">Coming Soon.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="coming-soon" data-aos="fade-up">
+                <p>More exciting projects coming soon 🚀</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>
+                                <a href="mailto:fahadahc144444@gmail.com">fahadahc144444@gmail.com</a>
+                                <button class="copy-btn" data-copy="fahadahc144444@gmail.com" aria-label="Copy email">
+                                    <i class="fas fa-copy"></i>
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>
+                                <a href="tel:+917061023061">+91 7061023061</a>
+                                <button class="copy-btn" data-copy="+917061023061" aria-label="Copy phone">
+                                    <i class="fas fa-copy"></i>
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>New Delhi, India</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/FahadAfzal5" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/fahad-afzal-hussain-1bb8ab309" class="social-link"
+                            target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://wa.me/917061023061" class="social-link" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.instagram.com/fahaddddd.14" class="social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+
+
+                </div>
+
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm" action="https://formspree.io/f/fahadahc144444@gmail.com" method="POST">
+                        <!-- Hidden input to ensure messages go to the correct email -->
+                        <input type="hidden" name="_to" value="fahadahc144444@gmail.com">
+                        <!-- Prevent spam -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <!-- Custom subject line -->
+                        <input type="hidden" name="_subject" value="New Portfolio Contact Form Message">
+                        <!-- Redirect after submission -->
+                        <input type="hidden" name="_next" value="#contact">
+
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="_replyto" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" placeholder="How can I help you?" required></textarea>
+                        </div>
+
+                        <button type="submit" id="contactSubmit" class="btn">Send Message</button>
+                        <div id="formStatus" role="status" aria-live="polite"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-bar">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">Fahad<span>.</span></a>
+                    <p>Exploring technology, building projects, solving problems.</p>
+                </div>
+                <nav class="footer-links-mini">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <div class="footer-social">
+                    <a href="https://github.com/FahadAfzal5" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/fahad-afzal-hussain-1bb8ab309" target="_blank"
+                        aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://wa.me/917061023061" target="_blank" aria-label="WhatsApp"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/fahaddddd.14" target="_blank" aria-label="Instagram"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Fahad Afzal Hussain. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" role="alert" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- Scroll-to-top button -->
+    <button id="scrollTopBtn" aria-label="Scroll to top">↑</button>
+
+    <!-- AOS script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Main JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
